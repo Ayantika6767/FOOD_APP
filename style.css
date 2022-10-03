@@ -1,0 +1,168 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{ 
+    background-color: #6F4E37 !important ;
+}
+#nav1 {
+ color: rgb(234, 220, 28);
+ text-indent: 30px;
+ font-family: 'Pacifico', cursive;
+font-size: 20px;
+
+}
+
+#navtext :hover{
+    color: white;
+    transition: 1250ms;
+}
+#navtext {
+    transition: 3000ms;
+    
+}
+
+.navbar {
+    background-color: rgba(57, 2, 2, 0.937);
+    /* box-shadow: 10px 5px 5px 10px#5822026d ; */
+}
+#home{
+    color: blanchedalmond;
+    font-size: 30px;
+}
+
+#basket{
+    width: 60px;
+    height: 40px;
+   
+}
+
+ #basket2{
+    width: 60px;
+    height: 50px;
+    margin-left: 750px;
+   
+} 
+#gif{
+    width: 30px;
+    height: 30px;
+}
+
+#ndimage{
+height: 608px;
+}
+.jumbotron {
+    background-image: url('bg1.jpg');
+}
+
+#locate{
+height: 500px;
+width: 600px;
+transform: translateX(900px);
+margin-left: auto;
+margin-right: auto;
+padding:40px ;
+ 
+}
+.name { 
+    height: 70px ; 
+    width: 100%;
+    background-color: rgba(150, 29, 29, 0.516); 
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    transition: 2000ms ;
+    color:white
+}
+#cafe-name { 
+    padding :10px ; 
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.name:hover { 
+    background-color: white;
+    color:black ; 
+}
+.locate-div{ 
+    /* margin-top: 15px; */
+    height: 70px ; 
+    width: 50%;
+    border-radius: 40px ;
+    background-color: rgba(150, 93, 29, 0.516); 
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    border-color: white;
+    transform: translateX(400px);
+    border-width: 5px;
+    border-style: double;
+    color:white ; 
+   
+}
+#locdiv{
+    /* background-image: url('https://static.vecteezy.com/system/resources/previews/003/607/477/original/coffee-background-with-realistic-cup-of-coffee-vector.jpg'); */
+    background-image: url('https://img.freepik.com/free-photo/rustic-brick-wall-background_53876-92955.jpg?w=826&t=st=1664818438~exp=1664819038~hmac=ea0a2866099552192abfdbde485cdb97da5440d1e07d5dfcf7b2f9b3b6e4b051');
+
+}
+.quote{ 
+    text-align: right;
+    background-color:hsla(0, 100%, 30%, 0.3);
+    width: 500px ;
+    height :300px ;
+    display: inline-block;
+    position: absolute;
+   padding-right: 100px;
+   margin-left: 70px;
+   border-radius: 50px;
+    transform: translateX(180px);
+    transform: translateY(50px);
+    /* background-color: #6F4E37 !important ; */
+
+}
+#quote-order{ 
+    font-size: 50px;
+    color:white ; 
+    font-weight: bold;
+    transform: translateX(80px);
+    font-family: 'Architects Daughter', cursive;
+
+
+}
+#row2{
+     
+    background-image: url('https://img.freepik.com/premium-photo/close-up-selective-focus-coffee-beans-blur-background_44353-2094.jpg?w=2000');
+}
+#row1{
+    margin-top: -50px;
+    margin-bottom: -50px;
+    margin: -inherit;
+    background-image: url('https://previews.123rf.com/images/angelmaxmixam/angelmaxmixam1601/angelmaxmixam160100055/50819636-wallpaper-menu-for-pizzerias-and-restaurants-image-products-.jpg');
+}
+
+#pics{
+    height: 300px;
+    width: 350px;
+}
+#toggle-switch{
+    transform: translateX(1255px);
+    
+}
+#toggle2{
+    transform: translateX(180px);
+}
+
+footer{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 250px;
+    width: 100%;
+    color: #6F4E37;
+    /* margin-bottom: 100px; */
+}
+#foot{
+    transform: translateX(600px);
+    font-size: larger;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    transform: translateX(600px);
+}

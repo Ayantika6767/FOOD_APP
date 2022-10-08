@@ -19,41 +19,47 @@
 <body style="background-color:rgba(62, 9, 9, 0.255) ;">
 <!--.................................NAV-BAR SECTION.............................-->
     <nav  id="navtext" class="navbar navbar-expand-lg  ">
-        <a id="nav1"  class="navbar-brand" href="#">
+       <div class="navbutton"> <a id="nav1"  class="navbar-brand" href="#">
           <span id="home">Home
             <img id="gif" src="https://c.tenor.com/SJwbVTPoj_QAAAAi/coffee-lover-hot-coffee.gif" alt="">
           </span>
-        
-        
-        </a>
+        </div>
+      </a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a id="nav1" class="nav-link" href="#">Cafe Finder <span class="sr-only">(current)</span>
+              <div class="navbutton" ><a id="nav1" class="nav-link" href="#row1" >Cafe Menu  <span class="sr-only">(current)</span>
              
-              </a>
+              </a></div>
+              
             </li>
             <li class="nav-item">
-              <a id="nav1" class="nav-link" href="#">Cafe Menu 
-                    <span >
-                      <img id="basket" src="https://www.cafecoffeeday.com/sites/all/themes/ccd/assets/images/cafe-menu/cart-icon.gif" alt="">
-                    </span>
+              <div class="navbutton" ><a id="nav1" class="nav-link" href="#locdiv">Cafe Finder 
+                    
               </a>
+              
+            </div>
+            <li><span >
+              <a href="#row2"><img id="basket" src="https://www.cafecoffeeday.com/sites/all/themes/ccd/assets/images/cafe-menu/cart-icon.gif" alt=""></a>
+            </span>
+          </li>
             </li>
             <li class="nav-item">
-              <a id="nav1" class="nav-link" href="#">Contact Us</a>
+              <div class="navbutton" > <a id="nav1" class="nav-link" href="#logos">Contact Us</a></div>
             </li>
             
-            <li><img id="basket2" src="https://www.emoji.com/wp-content/uploads/filebase/3d%20icons/emoji-3d%20icons-glossy-3d-icons-coffee-shop-72dpi-forPersonalUseOnly.gif" alt=""></li>
+            <a href="#row2"><li><img id="basket2" src="https://www.emoji.com/wp-content/uploads/filebase/3d%20icons/emoji-3d%20icons-glossy-3d-icons-coffee-shop-72dpi-forPersonalUseOnly.gif" alt=""></li></a>
           </ul>
 
 
         </div>
       </nav>
-      <!-- .................................................... -->
+      <!-- ................................................................................................................................ -->
       <div class="name">
         <h3 id = "cafe-name">
             Cafe Grub Up
@@ -230,13 +236,16 @@
           </div>
         </div>
       </div>
-<!--..................................................................................................................................-->
+<!--............................................................Locate......................................................................-->
         <div id="locdiv">     
-            <div class="locate-div">
+            <a href="https://www.google.com/maps/place/Cafe+Grub+Up/@28.395237,77.3213509,17z/data=!4m12!1m6!3m5!1s0x390cdc51aabb3d81:0xb6e8c5a7c8b8f0d5!2sCafe+Grub+Up!8m2!3d28.3952219!4d77.
+            3235404!3m4!1s0x390cdc51aabb3d81:0xb6e8c5a7c8b8f0d5!8m2!3d28.3952219!4d77.3235404" target="_blank">
+            <div >
                     <h3 id = "cafe-name">
-                        Locate us 
+                       <button id="locate-div">Locate us </button> 
                     </h3>
                 </div>
+              </a>
                 <div class="quote">
                     <p id = "quote-order">
                         ❤️❤️❤️❤️<br> We are Waiting for Your Orders <br> ❤️❤️❤️❤️
@@ -246,30 +255,98 @@
             <div>
         </div>
 
-  <img id="locate" src="map.png" alt="">
+    
 
+        <a href="https://www.google.com/maps/place/Cafe+Grub+Up/@28.395237,77.3213509,17z/data=!4m12!1m6!3m5!1s0x390cdc51aabb3d81:0xb6e8c5a7c8b8f0d5!2sCafe+Grub+Up!8m2!3d28.3952219!4d77.
+        3235404!3m4!1s0x390cdc51aabb3d81:0xb6e8c5a7c8b8f0d5!8m2!3d28.3952219!4d77.3235404" target="_blank">
+        <img id="locate" src="map.png" alt="">
+      </a>
+
+
+<!--......................................................................................................................................-->
+<div style="color: white;">
+  <form>
+    <div class="row col-md-6" style="color: white;">
+      <div class="col">
+       First Name <input type="text" class="form-control" placeholder="First name">
+      </div>
+      <div class="col">
+        Last Name<input type="text" class="form-control" placeholder="Last name">
+      </div>
+    </div>
+  
+
+
+  <div class="row col-md-6" >
+    <div class="col">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="col">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+  <div class="row col-md-6" id="marg">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="row col-md-6" id="marg">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="row col-md-4" >
+    <div class="form-group col-md-4">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Send to this Address
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Place Order</button>
+</form>
+</div>
+
+<!--.....................................................................................................................................-->
 <div id="toggle-switch">
   
-    <div class="custom-control custom-switch" id="toggle2">
-        <input type="checkbox" class="custom-control-input" id="customSwitch1">
-        <label class="custom-control-label" for="customSwitch1"></label>
-      </div>
-      <p style="color: white;">Allow to access Device Location</p>
+  <div class="custom-control custom-switch" id="toggle2">
+      <input type="checkbox" class="custom-control-input" id="customSwitch1">
+      <label class="custom-control-label" for="customSwitch1"></label>
+    </div>
+    <p style="color: white;">Allow to access Device Location</p>
 </div>
 
 
-
+   <!--.............................................contact.................................................................-->   
     <footer style="background-color:rgb(9, 9, 9) ;">
         <p id="foot">CAFE GRUB UP<br>
         <a href="mailto:cafegrubup@example.com" style="color: brown;">cafegrubup@example.com</a></p>
-        
-        <div>
-            <img class="logo" src="https://cdn0.iconfinder.com/data/icons/social-media-circle-6/1024/instagram-256.png" alt="">
-            <img class="logo" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-256.png" alt="">
-            <img class="logo" src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_linkedin-256.png" alt="">
-            <img class="logo" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Youtube-256.png" alt="">
-            <img class="logo" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Whatsapp2_colored_svg-256.png" alt="">
-        
+  
+        <div id="logos">
+            <a href="https://www.instagram.com/" target="_blank"><img class="logo" src="https://cdn0.iconfinder.com/data/icons/social-media-circle-6/1024/instagram-256.png" alt=""></a>
+            <a href="https://www.facebook.com/" target="_blank"><img class="logo" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-256.png" alt=""></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img class="logo" src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_linkedin-256.png" alt=""></a>
+            <a href="https://www.youtube.com/" target="_blank"><img class="logo" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Youtube-256.png" alt=""></a>
+            <a href="https://www.whatsapp.com/" target="_blank"><img class="logo" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Whatsapp2_colored_svg-256.png" alt=""></a>
+            
         </div>
       </footer>
      

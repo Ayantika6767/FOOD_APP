@@ -76,13 +76,15 @@ padding:40px ;
     padding :10px ; 
     font-weight: bold;
     font-size: 40px;
+    cursor: pointer;
 
 }
 .name:hover { 
     background-color: white;
     color:black ; 
+    cursor: pointer;
 }
-.locate-div{ 
+#locate-div{ 
     /* margin-top: 15px; */
     height: 70px ; 
     width: 50%;
@@ -97,10 +99,15 @@ padding:40px ;
     color:white ; 
    
 }
+#locate-div:hover { 
+    background-color: white;
+    color:black ;
+    cursor: pointer; 
+}
 #locdiv{
     /* background-image: url('https://static.vecteezy.com/system/resources/previews/003/607/477/original/coffee-background-with-realistic-cup-of-coffee-vector.jpg'); */
     background-image: url('https://img.freepik.com/free-photo/rustic-brick-wall-background_53876-92955.jpg?w=826&t=st=1664818438~exp=1664819038~hmac=ea0a2866099552192abfdbde485cdb97da5440d1e07d5dfcf7b2f9b3b6e4b051');
-
+    cursor: pointer; 
 }
 .quote{ 
     text-align: right;
@@ -165,4 +172,26 @@ footer{
     height: 50px;
     width: 50px;
     transform: translateX(600px);
+}
+
+.navbutton {
+    border-radius: 10px;
+    
+
+box-shadow: 0 5px 15px rgba(239, 232, 232, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+/* padding: 14px 40px; */
+font-size: 16px;
+cursor: pointer;
+}
+
+.navbutton:active {
+transform: scale(0.100);
+}
+
+.navbutton:focus {
+outline: 0;
+}
+
+#marg{
+    margin: 1px;
 }

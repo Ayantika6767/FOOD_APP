@@ -112,10 +112,11 @@ padding:40px ;
 .quote{ 
     text-align: right;
     background-color:hsla(0, 100%, 30%, 0.3);
-    width: 500px ;
+    width:500px;
     height :300px ;
     display: inline-block;
     position: absolute;
+    padding-top: 5px;
    padding-right: 100px;
    margin-left: 70px;
    border-radius: 50px;
@@ -125,7 +126,7 @@ padding:40px ;
 
 }
 #quote-order{ 
-    font-size: 50px;
+    font-size: 35px;
     color:white ; 
     font-weight: bold;
     transform: translateX(80px);
@@ -133,6 +134,14 @@ padding:40px ;
 
 
 }
+
+button{
+    transform: translateX(100px);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
 #row2{
      
     background-image: url('https://img.freepik.com/premium-photo/close-up-selective-focus-coffee-beans-blur-background_44353-2094.jpg?w=2000');
@@ -141,6 +150,7 @@ padding:40px ;
     margin-top: -50px;
     margin-bottom: -50px;
     margin: -inherit;
+    
     background-image: url('https://previews.123rf.com/images/angelmaxmixam/angelmaxmixam1601/angelmaxmixam160100055/50819636-wallpaper-menu-for-pizzerias-and-restaurants-image-products-.jpg');
 }
 

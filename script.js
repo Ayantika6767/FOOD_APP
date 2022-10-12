@@ -45,6 +45,6 @@ function gen(){
     console.log(x);
     document.getElementById('divImage').innerHTML=`
     <img src="img/image${x}.jpg"
-    style="width:500px; transform: translateX(80px); border-radius:10px;">
+    style="width:420px; height:420px;transform: translateX(80px); border-radius:2000px;">
     `;
 }

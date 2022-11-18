@@ -3,6 +3,7 @@ html {
   }
 body{ 
     background-color: #6F4E37 !important ;
+    overflow-x:hidden;
 }
 #nav1 {
  color: rgb(234, 220, 28);
